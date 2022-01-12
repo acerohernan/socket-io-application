@@ -5,6 +5,7 @@ require("dotenv").config();
 const http = require("http");
 const uuid = require("uuid");
 
+//db from note
 let notes = [];
 
 const app = express();
